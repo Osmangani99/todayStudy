@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-09T14:58:55.190Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2944000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with valid email and password",
+        "description": "",
+        "id": "login;login-with-valid-email-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at talentTEK Home Page",
+            "match": {
+              "location": "stepDefinition.login_step.iAmAtTalentTEKHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFile/login.feature",
+    "tags": []
+  }
+]
