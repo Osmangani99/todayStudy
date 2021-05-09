@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.829 s - in TestRunner
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.507 s <<< FAILURE! - in TestRunner
+TestRunner.runScenario["Login with valid email and password", "Optional[Login]"](1)  Time elapsed: 3.7 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step "I verify I successfully logged in my account" is undefined. You can implement it using the snippet(s) below:
+
+@Then("I verify I successfully logged in my account")
+public void i_verify_i_successfully_logged_in_my_account() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

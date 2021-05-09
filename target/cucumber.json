@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-05-09T14:58:55.190Z",
+        "start_timestamp": "2021-05-09T15:41:12.994Z",
         "before": [
           {
             "result": {
-              "duration": 2944000000,
+              "duration": 3226000000,
               "status": "passed"
             },
             "match": {
@@ -24,6 +24,7 @@
         "steps": [
           {
             "result": {
+              "duration": 19000000,
               "status": "passed"
             },
             "line": 5,
@@ -32,6 +33,51 @@
               "location": "stepDefinition.login_step.iAmAtTalentTEKHomePage()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 117000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enterd valid ID",
+            "match": {
+              "location": "stepDefinition.login_step.iEnterdValidID()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I entred valid password",
+            "match": {
+              "location": "stepDefinition.login_step.iEntredValidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on login button",
+            "match": {
+              "location": "stepDefinition.login_step.iClickOnLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I verify I successfully logged in my account",
+            "match": {},
+            "keyword": "Then "
           }
         ],
         "tags": [
